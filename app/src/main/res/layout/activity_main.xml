@@ -17,19 +17,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:hint="Name"/>
+            android:hint="Name"
+            android:id="@+id/name"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:hint="Family"/>
+            android:hint="Family"
+            android:id="@+id/family"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Submit"/>
+            android:text="Submit"
+            android:onClick="Get_On_Click_Submit"/>
 
     </LinearLayout>
 
